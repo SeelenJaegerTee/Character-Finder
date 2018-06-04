@@ -7,7 +7,7 @@
 #	Dice are assumed to start at 1. For a die ranging from 0 to 9 use '<dice:[1d10-1]>'
 #	Examples for dice tokens are: <dice:[2d10+2]> is equivalen to <dice:[1d10+2][1d10]> is equivalent to <dice:[1d10+1][1d10+1]>
 #	Dice tokens consistin only of flat values like +3 are not supported: <dice:[+3]> e.g. is illegal
-#	if you want no randomness you can hack this by using 0 dice or 0-sided dice like e.g. <dice:[0d10+3]> or <dice:[1d0+3]>
+#	if you want no randomness you can hack this by using 0 dice like e.g. <dice:[0d10+3]>
 #
 # Default entries are parsed when they encountered and set the default for all following lines.
 #
