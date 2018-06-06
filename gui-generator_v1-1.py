@@ -292,7 +292,7 @@ class DiceCup:
 					number = '1'
 			elif c == '+' or c == '-':
 				mode = 'bonus'
-				buffer = c
+				bonus = c
 			elif c.isdecimal():
 				if mode == 'number':
 					number = number+c
@@ -382,7 +382,7 @@ class StatBounds:
 						minDefault = '<'+t+'>'
 				elif 'max:' in t:
 					maxFound = True
-					if SetDefault:
+					if setDefault:
 						maxDefault = '<'+t+'>'
 				elif 'dice:' in t:
 					diceFound = True
